@@ -1,0 +1,148 @@
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  
+  #season1 {
+    top: 20px;
+    background-color: #36558a;
+  }
+  
+  #season2 {
+    top: 85px;
+    background-color: #3B4E6F; /* Blue */
+  }
+  
+  #season3 {
+    top: 150px;
+    background-color: #566684 /* Red */
+  }
+  
+  #season4 {
+    top: 215px;
+    background-color: #657B8F;
+  }
+  
+  #home {
+      top: 280px;
+      background-color: #848FA4;
+  }
+
+  #season6 {
+      top: 345px;
+      background-color: #99A4BB;
+  }
+
+  #season7 {
+      top: 410px;
+      background-color: #ABB4C5;
+  }
+  
+  
+  .container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 1000px;
+    height: 1790px;
+    background-color: white;
+  }
+
+  .logo {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+h1 {
+  text-transform: uppercase;
+  z-index: 1;
+  font-size: 52px;
+  width: auto;
+  position: relative;
+  text-align: center;
+  line-height: 1;
+  display: inline-block;
+  font-family: myFirstFont;
+  color: #000000;
+}
+
+p {
+  display: block;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: #000000;
+}
+
+.poster {
+  width: 25%;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src:url("strongarm.woff") format("woff");
+}
+
+.header {
+  font-family: myFirstFont;
+  font-size: 52px;
+  background: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.characters {
+  width:30%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+  
